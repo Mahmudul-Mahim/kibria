@@ -1,25 +1,34 @@
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-[#F2921D] text-neutral-content">
+    <footer className="flex justify-center gap-48 p-10 bg-[#F2921D] text-neutral-content">
       <div>
-        <span className="footer-title">Services</span>
-        <a className="link link-hover">Branding</a>
-        <a className="link link-hover">Design</a>
-        <a className="link link-hover">Marketing</a>
-        <a className="link link-hover">Advertisement</a>
+        <span className="text-2xl ">Address </span>
+        <hr className="w-[344px] h-1 bg-gray-100 border-0 rounded mt-4 dark:bg-gray-700" />
+        <div className=" mt-7" >
+        <p>Block: F/1</p>
+        <p>House: 11</p>
+        <p>Biswash Betka, Tangail.</p>
+        </div>
+        
       </div>
       <div>
-        <span className="footer-title">Company</span>
-        <a className="link link-hover">About us</a>
+        <span className="text-2xl">Site Map</span>
+        <hr className="w-[344px] h-1 bg-gray-100 border-0 rounded mt-4 dark:bg-gray-700" />
+        <div className="flex flex-col  mt-7" >
+        <a className="link link-hover">Home</a>
+        <a className="link link-hover">Courses</a>
+        <a className="link link-hover">About</a>
         <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
+        </div>
       </div>
       <div>
-        <span className="footer-title">Legal</span>
-        <a className="link link-hover">Terms of use</a>
-        <a className="link link-hover">Privacy policy</a>
-        <a className="link link-hover">Cookie policy</a>
+        <span className="text-2xl">Social Links</span>
+        <hr className="w-[344px] h-1 bg-gray-100 border-0 rounded mt-4 dark:bg-gray-700" />
+        <div className="flex flex-col mt-7" >
+        <a className="link link-hover">facebook.com/mjkibria</a>
+        <a className="link link-hover">youtube.com/mjkibria</a>
+        <a className="link link-hover">instagram.com/mjkibria</a>
+        </div>
       </div>
     </footer>
   );
